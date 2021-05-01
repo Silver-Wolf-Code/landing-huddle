@@ -16,23 +16,19 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
-
 .main .main__info {
   text-align: left;
   padding: 0;
 }
-
 .main .main__info .main__title {
   margin-bottom: 15px;
   font-size: 3.5rem;
   width: 400px;
 }
-
 .main .main__info .main__copy {
   margin-bottom: 20px;
   font-size: 2rem;
 }
-
 .main .main__info .btn {
   padding: 15px 0;
   font-size: 1.5rem;

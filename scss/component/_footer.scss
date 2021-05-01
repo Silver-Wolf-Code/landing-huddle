@@ -1,5 +1,4 @@
 .footer {
-  margin-bottom: 20px;
   display: grid;
   justify-items: center;
 
@@ -31,4 +30,15 @@
 
   }
 
+  .attribution {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    font-family: $font-body;
+    text-align: center;
+    color: $color-primary;
+  }
+
+  .attribution a {
+    color: hsl(228, 73%, 72%);
+  }
 }

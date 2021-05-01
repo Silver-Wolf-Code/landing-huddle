@@ -26,11 +26,9 @@ body {
 .main .main__info {
   padding: 0 80px;
 }
-
 .main .main__info .main__title {
   font-size: 2.8rem;
 }
-
 .main .main__info .btn {
   width: 200px;
   padding: 11px 0;
@@ -39,9 +37,12 @@ body {
 .footer {
   justify-items: right;
 }
-
 .footer .footer__follow .footer__link {
   width: 35px;
   height: 35px;
   font-size: 1.6rem;
+}
+.footer .attribution {
+  justify-self: center;
+  font-size: 1.3rem;
 }
