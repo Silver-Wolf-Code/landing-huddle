@@ -1,0 +1,53 @@
+.main {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .main__illustration {
+    margin-bottom: 50px;
+    width: inherit;
+
+    .main__img {
+      width: 100%;
+      animation: illustration 1s linear 1s 1;
+    }
+
+  }
+
+  .main__info {
+    text-align: center;
+    color: $color-primary;
+    font-family: $font-header;
+    animation: info 1s linear 1s 1;
+
+    .main__title {
+      margin-bottom: 30px;
+    }
+
+    .main__copy {
+      margin-bottom: 35px;
+      font-family: $font-body;
+      color: $color-secondary;
+    }
+
+    .btn {
+      width: 190px;
+      padding: 10px 0;
+      border: none;
+      border-radius: 50px;
+      color: $violet;
+      font-family: $font-header;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.664);
+
+      &:hover {
+        background: $soft-magenta;
+        cursor: pointer;
+        color: $color-primary;
+        transition: .5s all ease;
+      }
+
+    }
+
+  }
+
+}

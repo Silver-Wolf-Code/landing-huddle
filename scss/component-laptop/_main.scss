@@ -1,0 +1,10 @@
+.main {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+
+  .main__info {
+    padding: 0;
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,22 @@
+body {
+  background: $violet;
+  background-image: url(../images/bg-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.hero {
+  margin-bottom: 50px;
+
+  .hero__fig {
+    display: grid;
+    grid-template-columns: 150px;
+    animation: logo 1s linear .5s 1;
+
+    .hero__img {
+      width: 100%;
+    }
+
+  }
+}

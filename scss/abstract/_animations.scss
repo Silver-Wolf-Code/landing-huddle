@@ -1,0 +1,79 @@
+@keyframes logo {
+  0% {
+    position: relative;
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  20% {
+    position: relative;
+    transform: translateX(-85px);
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes illustration {
+  0% {
+    position: relative;
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    position: relative;
+    transform: translateY(45px);
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes info {
+  0% {
+    position: relative;
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    position: relative;
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes follow {
+  0% {
+    position: relative;
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  20% {
+    position: relative;
+    transform: translateX(50px);
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

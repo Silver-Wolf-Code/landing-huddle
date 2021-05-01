@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  padding: 5%;
+}
+
+.main {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.main .main__info {
+  padding: 0;
+  text-align: left;
+}
